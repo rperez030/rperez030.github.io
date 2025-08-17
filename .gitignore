@@ -1,0 +1,9 @@
+# Ignore VS Code settings and workspace files
+.vscode/
+*.code-workspace
+# Ignore Mac system files
+.DS_Store
+# Ignore node_modules if present
+node_modules/
+# Ignore log files
+*.log
