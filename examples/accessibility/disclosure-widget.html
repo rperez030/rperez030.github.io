@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Disclosure Widget Example</title>
+    <link rel="stylesheet" href="disclosure-widget.css">
+</head>
+<body>
+    <main>
+        <h1>Disclosure Widget Test</h1>
+        
+        <div class="disclosure-container">
+            <div class="disclosure-item">
+                <button type="button" 
+                        aria-expanded="false"
+                        aria-controls="content1" 
+                        class="disclosure-button" 
+                        id="disclosure1">
+                    <span class="disclosure-title">What is a disclosure widget?</span>
+                </button>
+                <div class="disclosure-content" id="content1" hidden>
+                    <p>A disclosure widget is an interactive component that shows and hides content.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="disclosure-widget.js"></script>
+</body>
+</html>
