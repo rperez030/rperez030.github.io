@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Product Gallery - Workshop Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product-gallery-accessible.css">
+    <script src="product-gallery-accessible.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Accessible Product Gallery</h1>
+        <p>This version demonstrates proper accessibility implementation with keyboard support, ARIA attributes, and semantic HTML.</p>
+        
+        <h2>Product Catalog</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <h3>
+                    <button 
+                        class="accordion-header" 
+                        aria-expanded="false" 
+                        aria-controls="panel-laptop"
+                        onclick="toggleAccordion(this)">
+                        <span>Computing</span>
+                        <span class="accordion-icon" aria-hidden="true"></span>
+                    </button>
+                </h3>
+                <div id="panel-laptop" class="accordion-panel" role="region" aria-label="Computing products">
+                    <div class="product-content">
+                        <div class="product-image">
+                            <img 
+                                src="https://via.placeholder.com/200x150/0066cc/ffffff?text=Able+Laptop" 
+                                width="200" 
+                                height="150" 
+                                alt="Able Laptop with holographic display and adaptive interface">
+                        </div>
+                        <div class="product-details">
+                            <h4>Able Laptop</h4>
+                            <p><strong>Price:</strong> $4,180.00</p>
+                            <p>A highly inclusive and infinitely powerful laptop that adapts to you. Revolutionary features include:</p>
+                            <ul>
+                                <li>Limitless RAM and processing power</li>
+                                <li>Adaptive interface that learns your preferences</li>
+                                <li>Multi-modal input (voice, touch, gesture, eye-tracking)</li>
+                                <li>Real-time accessibility adaptations</li>
+                                <li>Universal compatibility with all assistive technologies</li>
+                            </ul>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h3>
+                    <button 
+                        class="accordion-header" 
+                        aria-expanded="false" 
+                        aria-controls="panel-smartphone"
+                        onclick="toggleAccordion(this)">
+                        <span>Mobile</span>
+                        <span class="accordion-icon" aria-hidden="true"></span>
+                    </button>
+                </h3>
+                <div id="panel-smartphone" class="accordion-panel" role="region" aria-label="Mobile products">
+                    <div class="product-content">
+                        <div class="product-image">
+                            <img 
+                                src="https://via.placeholder.com/200x150/28a745/ffffff?text=Able+Phone" 
+                                width="200" 
+                                height="150" 
+                                alt="Able Phone with edge-to-edge haptic display and AI assistant">
+                        </div>
+                        <div class="product-details">
+                            <h4>Able Phone</h4>
+                            <p><strong>Price:</strong> $1,899.99</p>
+                            <p>A very accessible phone that enables you to achieve anything. Characteristics that surpass anything on earth:</p>
+                            <ul>
+                                <li>Intelligent haptic feedback system</li>
+                                <li>Context-aware accessibility features</li>
+                                <li>Real-time translation in all languages ever spoken on Earth (extraterrestrial support coming soon)</li>
+                                <li>Advanced AI that anticipates your needs</li>
+                                <li>Customizable sensory input and output</li>
+                            </ul>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h3>
+                    <button 
+                        class="accordion-header" 
+                        aria-expanded="false" 
+                        aria-controls="panel-headphones"
+                        onclick="toggleAccordion(this)">
+                        <span>Audio</span>
+                        <span class="accordion-icon" aria-hidden="true"></span>
+                    </button>
+                </h3>
+                <div id="panel-headphones" class="accordion-panel" role="region" aria-label="Audio products">
+                    <div class="product-content">
+                        <div class="product-image">
+                            <img 
+                                src="https://via.placeholder.com/200x150/6c757d/ffffff?text=Able+Headphones" 
+                                width="200" 
+                                height="150" 
+                                alt="Able Wireless Headphones with neural interface and holographic display">
+                        </div>
+                        <div class="product-details">
+                            <h4>Able Wireless Headphones</h4>
+                            <p><strong>Price:</strong> $899.99</p>
+                            <p>A wireless headset that redefines communication and comfort:</p>
+                            <ul>
+                                <li>Incredibly comfortable, adapts to any head shape</li>
+                                <li>Unlimited range - works anywhere in the world</li>
+                                <li>Powerful neural engine with AI processing</li>
+                                <li>Real-time caption generation in mid-air</li>
+                                <li>Holographic sign language interpretation</li>
+                                <li>Spatial audio with perfect environmental awareness</li>
+                            </ul>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section class="newsletter-section">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with the latest products and special offers!</p>
+            <form onsubmit="handleNewsletterSubmit(event)">
+                <div class="form-group">
+                    <label for="name-accessible">Name</label>
+                    <input 
+                        type="text" 
+                        id="name-accessible" 
+                        name="name" 
+                        required
+                        aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="email-accessible">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email-accessible" 
+                        name="email" 
+                        required
+                        aria-required="true">
+                </div>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+            </form>
+        </section>
+        
+        <section class="info-section">
+            <h2>Why Shop With Us?</h2>
+            <p>We offer high-quality products with excellent customer service. Return anytime - if you no longer have the product, don't worry! We will either replace it or give you your money back, no questions asked. Free shipping on orders over $50.</p>
+            <p>Our customer support team is available 24/7 to assist you with any questions or concerns.</p>
+        </section>
+    </div>
+</body>
+</html>
