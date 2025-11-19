@@ -5,7 +5,7 @@ function toggleAccordion(header) {
 }
 
 function addToCart() {
-    alert('Product added to cart!');
+    alert('¡Producto agregado al carrito!');
 }
 
 function handleNewsletterSubmit(event) {
@@ -13,6 +13,6 @@ function handleNewsletterSubmit(event) {
     const form = event.target;
     const name = form.querySelector('input[name="name"]').value;
     const email = form.querySelector('input[name="email"]').value;
-    alert(`Thank you for subscribing, ${name}! We'll send updates to ${email}.`);
+    alert(`¡Gracias por suscribirte, ${name}! Enviaremos actualizaciones a ${email}.`);
     form.reset();
 }

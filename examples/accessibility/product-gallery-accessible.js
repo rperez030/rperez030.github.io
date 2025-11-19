@@ -11,7 +11,7 @@ function toggleAccordion(button) {
 // Add to cart handler
 function addToCart(button) {
     const productName = button.closest('.product-details').querySelector('h4').textContent;
-    alert(`${productName} added to cart!`);
+    alert(`¡${productName} agregado al carrito!`);
 }
 
 // Newsletter form handler
@@ -19,6 +19,6 @@ function handleNewsletterSubmit(event) {
     event.preventDefault();
     const name = document.getElementById('name-accessible').value;
     const email = document.getElementById('email-accessible').value;
-    alert(`Thank you for subscribing, ${name}! We'll send updates to ${email}.`);
+    alert(`¡Gracias por suscribirte, ${name}! Enviaremos actualizaciones a ${email}.`);
     event.target.reset();
 }

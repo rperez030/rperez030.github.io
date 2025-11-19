@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessible Product Gallery - Workshop Example</title>
+    <title>Galería de Productos Accesible - ejemplo para el taller</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="product-gallery-accessible.css">
     <script src="product-gallery-accessible.js"></script>
 </head>
 <body>
     <div class="form-container">
-        <h1>Accessible Product Gallery</h1>
-        <p>This version demonstrates proper accessibility implementation with keyboard support, ARIA attributes, and semantic HTML.</p>
+        <h1>Galería de Productos Accesible</h1>
+        <p>Esta versión demuestra una adecuada implementación de accesibilidad con soporte de teclado, atributos ARIA y HTML semántico.</p>
         
-        <h2>Product Catalog</h2>
+        <h2>Catálogo de Productos</h2>
         <div class="accordion">
             <div class="accordion-item">
                 <h3>
@@ -22,31 +22,31 @@
                         aria-expanded="false" 
                         aria-controls="panel-laptop"
                         onclick="toggleAccordion(this)">
-                        <span>Computing</span>
-                        <span class="accordion-icon" aria-hidden="true"></span>
+                        <span>Informática</span>
+                        <span class="accordion-icon"></span>
                     </button>
                 </h3>
-                <div id="panel-laptop" class="accordion-panel" role="region" aria-label="Computing products">
+                <div id="panel-laptop" class="accordion-panel" role="region" aria-label="Productos de informática">
                     <div class="product-content">
                         <div class="product-image">
                             <img 
                                 src="https://via.placeholder.com/200x150/0066cc/ffffff?text=Able+Laptop" 
                                 width="200" 
                                 height="150" 
-                                alt="Able Laptop with holographic display and adaptive interface">
+                                alt="Portátil Able con pantalla holográfica e interfaz adaptativa">
                         </div>
                         <div class="product-details">
                             <h4>Able Laptop</h4>
-                            <p><strong>Price:</strong> $4,180.00</p>
-                            <p>A highly inclusive and infinitely powerful laptop that adapts to you. Revolutionary features include:</p>
+                            <p><strong>Precio:</strong> $4,180.00</p>
+                            <p>Un portátil altamente inclusivo e infinitamente potente que se adapta a ti. Las características revolucionarias incluyen:</p>
                             <ul>
-                                <li>Limitless RAM and processing power</li>
-                                <li>Adaptive interface that learns your preferences</li>
-                                <li>Multi-modal input (voice, touch, gesture, eye-tracking)</li>
-                                <li>Real-time accessibility adaptations</li>
-                                <li>Universal compatibility with all assistive technologies</li>
+                                <li>RAM y potencia de procesamiento ilimitadas</li>
+                                <li>Interfaz adaptativa que aprende tus preferencias</li>
+                                <li>Entrada multimodal (voz, tacto, gestos, seguimiento ocular)</li>
+                                <li>Adaptaciones de accesibilidad en tiempo real</li>
+                                <li>Compatibilidad universal con todas las tecnologías de asistencia</li>
                             </ul>
-                            <button class="add-to-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">Agregar al Carrito</button>
                         </div>
                     </div>
                 </div>
@@ -59,31 +59,31 @@
                         aria-expanded="false" 
                         aria-controls="panel-smartphone"
                         onclick="toggleAccordion(this)">
-                        <span>Mobile</span>
-                        <span class="accordion-icon" aria-hidden="true"></span>
+                        <span>Móvil</span>
+                        <span class="accordion-icon"></span>
                     </button>
                 </h3>
-                <div id="panel-smartphone" class="accordion-panel" role="region" aria-label="Mobile products">
+                <div id="panel-smartphone" class="accordion-panel" role="region" aria-label="Productos móviles">
                     <div class="product-content">
                         <div class="product-image">
                             <img 
                                 src="https://via.placeholder.com/200x150/28a745/ffffff?text=Able+Phone" 
                                 width="200" 
                                 height="150" 
-                                alt="Able Phone with edge-to-edge haptic display and AI assistant">
+                                alt="Teléfono Able con pantalla háptica de borde a borde y asistente de IA">
                         </div>
                         <div class="product-details">
                             <h4>Able Phone</h4>
-                            <p><strong>Price:</strong> $1,899.99</p>
-                            <p>A very accessible phone that enables you to achieve anything. Characteristics that surpass anything on earth:</p>
+                            <p><strong>Precio:</strong> $1,899.99</p>
+                            <p>Un teléfono muy accesible que te permite lograr cualquier cosa. Características que superan cualquier cosa en la tierra:</p>
                             <ul>
-                                <li>Intelligent haptic feedback system</li>
-                                <li>Context-aware accessibility features</li>
-                                <li>Real-time translation in all languages ever spoken on Earth (extraterrestrial support coming soon)</li>
-                                <li>Advanced AI that anticipates your needs</li>
-                                <li>Customizable sensory input and output</li>
+                                <li>Sistema de retroalimentación háptica inteligente</li>
+                                <li>Características de accesibilidad según el contexto</li>
+                                <li>Traducción en tiempo real en todos los idiomas que se han hablado en la Tierra (disponible próximamente)</li>
+                                <li>IA avanzada que anticipa tus necesidades</li>
+                                <li>Entrada y salida sensorial personalizable</li>
                             </ul>
-                            <button class="add-to-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">Agregar al Carrito</button>
                         </div>
                     </div>
                 </div>
@@ -97,31 +97,31 @@
                         aria-controls="panel-headphones"
                         onclick="toggleAccordion(this)">
                         <span>Audio</span>
-                        <span class="accordion-icon" aria-hidden="true"></span>
+                        <span class="accordion-icon"></span>
                     </button>
                 </h3>
-                <div id="panel-headphones" class="accordion-panel" role="region" aria-label="Audio products">
+                <div id="panel-headphones" class="accordion-panel" role="region" aria-label="Productos de audio">
                     <div class="product-content">
                         <div class="product-image">
                             <img 
                                 src="https://via.placeholder.com/200x150/6c757d/ffffff?text=Able+Headphones" 
                                 width="200" 
                                 height="150" 
-                                alt="Able Wireless Headphones with neural interface and holographic display">
+                                alt="Auriculares Inalámbricos Able con interfaz neural y pantalla holográfica">
                         </div>
                         <div class="product-details">
                             <h4>Able Wireless Headphones</h4>
-                            <p><strong>Price:</strong> $899.99</p>
-                            <p>A wireless headset that redefines communication and comfort:</p>
+                            <p><strong>Precio:</strong> $899.99</p>
+                            <p>Un auricular inalámbrico que redefine la comunicación y la comodidad:</p>
                             <ul>
-                                <li>Incredibly comfortable, adapts to any head shape</li>
-                                <li>Unlimited range - works anywhere in the world</li>
-                                <li>Powerful neural engine with AI processing</li>
-                                <li>Real-time caption generation in mid-air</li>
-                                <li>Holographic sign language interpretation</li>
-                                <li>Spatial audio with perfect environmental awareness</li>
+                                <li>Increíblemente cómodo, se adapta a cualquier cabeza</li>
+                                <li>Alcance ilimitado - funciona en cualquier lugar del mundo</li>
+                                <li>Motor neural potente con procesamiento de IA</li>
+                                <li>Generación de subtítulos en tiempo real en el aire</li>
+                                <li>Interpretación holográfica del lenguaje de señas</li>
+                                <li>Audio espacial con conciencia ambiental perfecta</li>
                             </ul>
-                            <button class="add-to-cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">Agregar al Carrito</button>
                         </div>
                     </div>
                 </div>
@@ -129,11 +129,11 @@
         </div>
         
         <section class="newsletter-section">
-            <h2>Subscribe to Our Newsletter</h2>
-            <p>Stay updated with the latest products and special offers!</p>
+            <h2>Suscríbete a Nuestro Boletín</h2>
+            <p>¡Mantente actualizado con los últimos productos y ofertas especiales!</p>
             <form onsubmit="handleNewsletterSubmit(event)">
                 <div class="form-group">
-                    <label for="name-accessible">Name</label>
+                    <label for="name-accessible">Nombre</label>
                     <input 
                         type="text" 
                         id="name-accessible" 
@@ -142,7 +142,7 @@
                         aria-required="true">
                 </div>
                 <div class="form-group">
-                    <label for="email-accessible">Email Address</label>
+                    <label for="email-accessible">Correo Electrónico</label>
                     <input 
                         type="email" 
                         id="email-accessible" 
@@ -150,14 +150,14 @@
                         required
                         aria-required="true">
                 </div>
-                <button type="submit" class="subscribe-btn">Subscribe</button>
+                <button type="submit" class="subscribe-btn">Suscribirse</button>
             </form>
         </section>
         
         <section class="info-section">
-            <h2>Why Shop With Us?</h2>
-            <p>We offer high-quality products with excellent customer service. Return anytime - if you no longer have the product, don't worry! We will either replace it or give you your money back, no questions asked. Free shipping on orders over $50.</p>
-            <p>Our customer support team is available 24/7 to assist you with any questions or concerns.</p>
+            <h2>¿Por Qué Comprar Con Nosotros?</h2>
+            <p>Ofrecemos productos de alta calidad con un excelente servicio al cliente. Devuelve en cualquier momento - si ya no tienes el producto, ¡no te preocupes! Lo reemplazaremos o te devolveremos tu dinero, sin hacer preguntas. Envío gratis en pedidos superiores a $50.</p>
+            <p>Nuestro equipo de atención al cliente está disponible las 24 horas del día, los 7 días de la semana para ayudarte con cualquier pregunta o inquietud.</p>
         </section>
     </div>
 </body>
