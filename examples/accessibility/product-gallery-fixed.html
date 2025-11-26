@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Productos - Fixed WCAG Violations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product-gallery-fixed.css">
+    <script src="product-gallery-fixed.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Galería de Productos con Problemas de Accesibilidad</h1>
+        <p>Esta versión contiene intencionalmente problemas de accesibilidad para fines de demostración en el taller.</p>
+        
+        <h2>Catálogo de Productos</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>Informática</span>
+                    <span class="accordion-icon">▼</span>
+                </div>
+                <div id="panel-laptop" class="accordion-panel">
+                    <div class="product-content">
+                        <div class="product-image">
+                            <img 
+                                src="https://via.placeholder.com/200x150/0066cc/ffffff?text=Able+Laptop" 
+                                width="200" 
+                                height="150">
+                        </div>
+                        <div class="product-details">
+                            <h4>Able Laptop</h4>
+                            <p><strong>Precio:</strong> $4,180.00</p>
+                            <p>Un portátil altamente inclusivo e infinitamente potente que se adapta a ti. Las características revolucionarias incluyen:</p>
+                            <ul>
+                                <li>RAM y potencia de procesamiento ilimitadas</li>
+                                <li>Interfaz adaptativa que aprende tus preferencias</li>
+                                <li>Entrada multimodal (voz, tacto, gestos, seguimiento ocular)</li>
+                                <li>Adaptaciones de accesibilidad en tiempo real</li>
+                                <li>Compatibilidad universal con todas las tecnologías de asistencia</li>
+                            </ul>
+                            <button class="add-to-cart-btn" onclick="addToCart()">Agregar al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>Móvil</span>
+                    <span class="accordion-icon">▼</span>
+                </div>
+                <div id="panel-smartphone" class="accordion-panel">
+                    <div class="product-content">
+                        <div class="product-image">
+                            <img 
+                                src="https://via.placeholder.com/200x150/28a745/ffffff?text=Able+Phone" 
+                                width="200" 
+                                height="150">
+                        </div>
+                        <div class="product-details">
+                            <h4>Able Phone</h4>
+                            <p><strong>Precio:</strong> $1,899.99</p>
+                            <p>Un teléfono muy accesible que te permite lograr cualquier cosa. Características que superan cualquier cosa en la tierra:</p>
+                            <ul>
+                                <li>Sistema de retroalimentación háptica inteligente</li>
+                                <li>Características de accesibilidad según el contexto</li>
+                                <li>Traducción en tiempo real en todos los idiomas que se han hablado en la Tierra (disponible próximamente)</li>
+                                <li>IA avanzada que anticipa tus necesidades</li>
+                                <li>Entrada y salida sensorial personalizable</li>
+                            </ul>
+                            <button class="add-to-cart-btn" onclick="addToCart()">Agregar al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>Audio</span>
+                    <span class="accordion-icon">▼</span>
+                </div>
+                <div id="panel-headphones" class="accordion-panel">
+                    <div class="product-content">
+                        <div class="product-image">
+                            <img 
+                                src="https://via.placeholder.com/200x150/6c757d/ffffff?text=Able+Headphones" 
+                                width="200" 
+                                height="150">
+                        </div>
+                        <div class="product-details">
+                            <h4>Able Wireless Headphones</h4>
+                            <p><strong>Precio:</strong> $899.99</p>
+                            <p>Un auricular inalámbrico que redefine la comunicación y la comodidad:</p>
+                            <ul>
+                                <li>Increíblemente cómodo, se adapta a cualquier cabeza</li>
+                                <li>Alcance ilimitado - funciona en cualquier lugar del mundo</li>
+                                <li>Motor neural potente con procesamiento de IA</li>
+                                <li>Generación de subtítulos en tiempo real en el aire</li>
+                                <li>Interpretación holográfica del lenguaje de señas</li>
+                                <li>Audio espacial con conciencia ambiental perfecta</li>
+                            </ul>
+                            <button class="add-to-cart-btn" onclick="addToCart()">Agregar al Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section class="newsletter-section">
+            <h2>Suscríbete a Nuestro Boletín</h2>
+            <p>¡Mantente actualizado con los últimos productos y ofertas especiales!</p>
+            <form onsubmit="handleNewsletterSubmit(event)">
+                <label for="name">Nombre</label>
+                <input 
+                    type="text" 
+                    id="name"
+                    name="name">
+                <label for="email">Correo Electrónico</label>
+                <input 
+                    type="email" 
+                    id="email"
+                    name="email">
+                <button type="submit" class="subscribe-btn">Suscribirse</button>
+            </form>
+        </section>
+        
+        <section class="info-section">
+            <h2 class="low-contrast-header">¿Por Qué Comprar Con Nosotros?</h2>
+            <p>Ofrecemos productos de alta calidad con un excelente servicio al cliente. Devuelve en cualquier momento - si ya no tienes el producto, ¡no te preocupes! Lo reemplazaremos o te devolveremos tu dinero, sin hacer preguntas. Envío gratis en pedidos superiores a $50.</p>
+            <p>Nuestro equipo de atención al cliente está disponible las 24 horas del día, los 7 días de la semana para ayudarte con cualquier pregunta o inquietud.</p>
+        </section>
+    </div>
+</body>
+</html>
