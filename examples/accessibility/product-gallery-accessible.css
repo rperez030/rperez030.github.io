@@ -68,6 +68,16 @@
     flex-shrink: 0;
 }
 
+/* --- NEW ADDITION START --- */
+.product-image img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;      /* Prevents squashing by cropping excess */
+    object-position: center; /* Centers the image content */
+    border-radius: 4px;      /* Adds consistent rounded corners */
+}
+/* --- NEW ADDITION END --- */
+
 .product-details {
     flex: 1;
 }

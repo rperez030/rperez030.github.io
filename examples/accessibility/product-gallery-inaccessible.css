@@ -51,6 +51,17 @@
     flex-shrink: 0;
 }
 
+/* --- ADDED FIX FOR RESPONSIVE IMAGES --- */
+.product-image img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    /* Note: I did NOT add border-radius here, keeping the design 
+       slightly "sharper" or less refined than the accessible version 
+       if you want a subtle visual difference, or add it if you want identity. */
+}
+/* --------------------------------------- */
+
 .product-details {
     flex: 1;
 }

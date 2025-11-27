@@ -51,6 +51,14 @@
     flex-shrink: 0;
 }
 
+/* --- ADDED FOR CONSISTENCY --- */
+.product-image img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover; /* Prevents squashing */
+}
+/* ----------------------------- */
+
 .product-details {
     flex: 1;
 }
