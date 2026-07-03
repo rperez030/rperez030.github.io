@@ -2,11 +2,12 @@
 
 Screen-reader-friendly version for Corinne at Austin Marriott Downtown.
 
-Last checked: July 2, 2026, 2:55 PM Eastern.
+Last checked: July 3, 2026. Breakfast menu added from the official source on this date; other sections last checked July 2, 2026, 2:55 PM Eastern.
 
 Official sources:
 
 - Corinne Austin menu page: https://www.corinneatx.com/menus
+- Breakfast menu: https://www.corinneatx.com/menus/breakfast
 - Corinne Austin home page and hours: https://www.corinneatx.com/
 - Dessert menu: https://www.corinneatx.com/menus/desserts
 - Craft cocktails: https://www.corinneatx.com/menus/craft-cocktails
@@ -24,6 +25,74 @@ Lunch hours listed by Corinne:
 - Saturday and Sunday have weekend brunch from 7:00 AM to 3:00 PM instead of weekday lunch.
 
 Note: An asterisk after an item means the restaurant marks it as containing raw or undercooked meat, poultry, seafood, shellfish, or eggs, which may increase the risk of foodborne illness.
+
+## Breakfast
+
+Note: A double asterisk after an item is the restaurant's mark for a lighter option — dishes it describes as crafted with nutritious ingredients and minimal calories. (The single asterisk means the same as above.)
+
+### Start Your Day
+
+- Housemade Biscuits
+  Local jam, whipped butter.
+  3 biscuits, $7.00.
+  5 biscuits, $10.00.
+
+- Greek Yogurt Parfait**, $9.00
+  Granola, berries, jam, vanilla greek yogurt.
+
+- Steel Cut Oatmeal**, $10.00
+  Dried cherries, brown sugar, toasted pecans.
+
+- Avocado Toast, $14.00
+  Rustic bread, spiced seeds, mint.
+
+- Acai Bowl**, $14.00
+  Greek yogurt, acai, almond granola, banana, strawberry.
+
+### Plates
+
+- Eggs Your Way*, $18.00
+  Choice of chicken sausage, pork sausage, or bacon, fingerling breakfast potatoes, choice of toast.
+
+- Breakfast Burrito, $18.00
+  Flour tortilla, scrambled eggs, pork sausage, crispy bacon, potatoes, cheese, charred tomato salsa.
+
+- Chilaquiles Verde*, $17.00
+  Black beans, queso fresco, pickled onion, lime crema, sunny egg.
+
+- Light And Fluffy Pancakes, $15.00
+  Blackberries, powdered sugar, maple syrup.
+
+- Bacon Egg And Cheddar Sandwich, $16.00
+  English muffin, over hard eggs, fingerling breakfast potatoes.
+
+- Spinach And Mushroom Egg White Omelet, $18.00
+  Havarti, fingerling breakfast potatoes, choice of toast.
+
+### Sides
+
+- Peppered Bacon, $7.00
+- Chicken Sausage, $7.00
+- Pork Sausage Links, $7.00
+- Breakfast Potatoes, $5.00
+- Choice of Toast, $5.00
+- Fresh Berries, $7.00
+
+### Fresh Pressed Juice
+
+- Ginger Sunrise, $7.00
+  Carrot, golden beet, orange, ginger, turmeric.
+
+- Sea Green Immunity, $7.00
+  Spirulina, celery, cucumber, green apple, honeydew.
+
+### Coffee
+
+- Espresso, $4.00
+- Cappuccino, $6.00
+- Latte, $6.00
+- Coffee, $5.00
+- Tea, $5.00
 
 ## Lunch
 
