@@ -2,12 +2,13 @@
 
 Screen-reader-friendly version for Corinne at Austin Marriott Downtown.
 
-Last checked: July 3, 2026. Breakfast menu added from the official source on this date; other sections last checked July 2, 2026, 2:55 PM Eastern.
+Last checked: July 4, 2026. Dinner menu added from the official source on this date. Breakfast menu added July 3, 2026; other sections last checked July 2, 2026, 2:55 PM Eastern.
 
 Official sources:
 
 - Corinne Austin menu page: https://www.corinneatx.com/menus
 - Breakfast menu: https://www.corinneatx.com/menus/breakfast
+- Dinner menu: https://www.corinneatx.com/menus/dinner
 - Corinne Austin home page and hours: https://www.corinneatx.com/
 - Dessert menu: https://www.corinneatx.com/menus/desserts
 - Craft cocktails: https://www.corinneatx.com/menus/craft-cocktails
@@ -23,6 +24,10 @@ Lunch hours listed by Corinne:
 
 - Monday through Friday, 11:00 AM to 3:00 PM
 - Saturday and Sunday have weekend brunch from 7:00 AM to 3:00 PM instead of weekday lunch.
+
+Dinner hours listed by Corinne:
+
+- Every day, 5:00 PM to 11:00 PM.
 
 Note: An asterisk after an item means the restaurant marks it as containing raw or undercooked meat, poultry, seafood, shellfish, or eggs, which may increase the risk of foodborne illness.
 
@@ -186,6 +191,104 @@ The rotisserie chicken is a half bird, marinated 24 hours and slow roasted.
 
 - Chicken, $32.00
   Lemon chicken jus, grilled broccolini, fries, poached egg mayo.
+
+## Dinner
+
+### Starters
+
+- Warm Parker House Rolls, $8.00
+  Whipped butter, maldon sea salt.
+
+- Burrata Cheese, $18.00
+  Apricot mostarda, truffle honey, marcona almond, grilled rustic bread.
+
+- Deviled Eggs, $13.00
+  Crispy chorizo, chives.
+
+- Avocado Hummus, $16.00
+  Garden crudité, olive tapenade dip.
+
+- Crab Croquettes, $17.00
+  Pommes puree, lemon, chive, citrus aioli.
+
+- Spicy Tuna Bruschetta*, $19.00
+  Clementine, avocado, pistachio, crispy capers.
+
+- Buffalo Cauliflower, $15.00
+  House-made ranch, carrots, celery.
+
+### Soup And Salad
+
+- Rotisserie Chicken Noodle
+  Garden vegetables, tubetti, picked herbs.
+  Cup, $8.00.
+  Bowl, $11.00.
+
+- Caesar Salad, $15.00
+  Romaine, migas croutons, grated reggiano.
+
+- Corinne Wedge, $17.00
+  Gorgonzola, thick cut bacon, pickled onion, cucumber, buttermilk dressing.
+
+- Heirloom Tomato And Watermelon Salad, $15.00
+  Whipped feta, red chile agrodolce, crispy farro.
+
+- Grilled Cabbage Salad, $15.00
+  Shaved fennel, sugar snap pea, mint, lemon.
+
+### Plates
+
+Add-on for any entree:
+
+- Oscar Topping, add $12.00
+  Jumbo lump crab meat, hollandaise.
+
+Menu items:
+
+- Braised Wagyu*, $36.00
+  Pommes puree, heirloom carrot, thick bacon, wild mushroom.
+
+- Wild Mushroom Bolognese, $24.00
+  Roasted wild mushroom, rigatoni, parmesan, basil.
+
+- Truffled Bucatini, $24.00
+  Beurre fondue, pecorino, parmigiano reggiano, black pepper.
+
+- Scottish Salmon*, $34.00
+  Beluga lentils, soubise, lemon, fresh herbs, grilled broccolini.
+
+- Texas Redfish, $36.00
+  Roasted mushrooms, baby spinach, mornay sauce, tarragon oil, sweet vermouth.
+
+- Longbone Pork Ribeye*, $40.00
+  Tomatillo, hominy, spiced agave, grilled corn.
+
+- 14 oz Wagyu Ribeye, $68.00
+  Red chile truffle butter, crispy potatoes.
+
+- Filet Mignon*, $59.00
+  8 oz filet, grilled asparagus.
+
+### Rotisserie
+
+The rotisserie chicken is a half bird, marinated 24 hours and slow roasted.
+
+- Chicken, $32.00
+  Lemon chicken jus, grilled broccolini, pommes puree.
+
+### Sides
+
+- Pommes Puree, $9.00
+- Fries, $8.00
+- Broccolini, $9.00
+- Asparagus, $10.00
+  Lemon, parsley.
+- Roasted Mushrooms, $8.00
+  Red wine jus.
+- Truffled Twice Baked Potato, $14.00
+  Gruyere, black truffle.
+- Baked Mac And Cheese, $14.00
+  Cavatappi, parmesan bread crumbs.
 
 ## Desserts
 
