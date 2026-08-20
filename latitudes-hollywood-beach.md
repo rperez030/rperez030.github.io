@@ -4,32 +4,39 @@ Screen-reader-friendly version for Latitudes at the Hollywood Beach Marriott.
 
 Last checked: August 20, 2026.
 
-Location and phone:
+## Location And Phone
 
 - 2501 North Ocean Drive, Hollywood, Florida 33019
 - 954-924-2202
 
-Breakfast hours listed by Latitudes:
+## Hours
+
+These are the hours Latitudes lists for each service.
+
+### Breakfast Hours
 
 - Monday through Friday, the à la carte menu runs 6:30 AM to 10:45 AM and the buffet stays open until 11:00 AM.
 - Saturday and Sunday, the à la carte menu runs 7:00 AM to 10:45 AM and the buffet stays open until 12:00 noon.
 
-Lunch and dinner hours listed by Latitudes:
+### Lunch And Dinner Hours
 
 - Sunday through Thursday, 11:00 AM to 10:00 PM
 - Friday and Saturday, 12:00 PM to 11:00 PM
 
-Late night hours: 10:00 PM to 11:00 PM.
+### Late Night Hours
 
-Happy hour: Monday through Friday, 3:00 PM to 5:00 PM.
+- Every day, 10:00 PM to 11:00 PM
 
-Note: An asterisk after an item means the restaurant marks it as containing raw or undercooked food, which may increase the risk of foodborne illness.
+### Happy Hour Hours
 
-Note: GF after an item is the restaurant's mark for a gluten friendly option.
+- Monday through Friday, 3:00 PM to 5:00 PM
 
-Note: The restaurant advertises a full liquor bar, craft beer, and an extensive wine list alongside the all day menu.
+## Notes And Legend
 
-Note: Reservations are taken for parties of 10 or more. Parties of 24 or more go through the catering department on the same phone number.
+- An asterisk after an item means the restaurant marks it as containing raw or undercooked food, which may increase the risk of foodborne illness.
+- GF after an item is the restaurant's mark for a gluten friendly option.
+- The restaurant advertises a full liquor bar, craft beer, and an extensive wine list alongside the all day menu.
+- Reservations are taken for parties of 10 or more. Parties of 24 or more go through the catering department on the same phone number.
 
 ## Breakfast
 
