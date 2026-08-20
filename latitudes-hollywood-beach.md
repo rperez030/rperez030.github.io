@@ -2,18 +2,7 @@
 
 Screen-reader-friendly version for Latitudes at the Hollywood Beach Marriott.
 
-Last checked: August 20, 2026. Every section below was transcribed from the restaurant's official menus on that date.
-
-Official sources:
-
-- Latitudes breakfast menu: https://www.latitudeshollywoodbeach.com/breakfast
-- Latitudes all day menu: https://www.latitudeshollywoodbeach.com/all-day
-- Latitudes late night menu: https://www.latitudeshollywoodbeach.com/late-night-menu
-- Latitudes beverage menu: https://www.latitudeshollywoodbeach.com/beverage
-- Latitudes kids menu: https://www.latitudeshollywoodbeach.com/s/Kids-Menu-2024.pdf
-- Latitudes happy hour: https://www.latitudeshollywoodbeach.com/happyhour
-- Latitudes home page: https://www.latitudeshollywoodbeach.com/
-- Latitudes contact and directions: https://www.latitudeshollywoodbeach.com/contact-us
+Last checked: August 20, 2026.
 
 Location and phone:
 
@@ -469,3 +458,14 @@ Available 3:00 PM to 5:00 PM, Monday through Friday, with $10.00 food specials a
 ## Restaurant Disclaimer
 
 Consumption of raw or undercooked food may result in an increased risk of foodborne illness. Some items on this menu contain ingredients that are not listed. Inform your server of any food allergies or dietary restrictions before you place your order.
+
+## Official Sources
+
+- Latitudes breakfast menu: https://www.latitudeshollywoodbeach.com/breakfast
+- Latitudes all day menu: https://www.latitudeshollywoodbeach.com/all-day
+- Latitudes late night menu: https://www.latitudeshollywoodbeach.com/late-night-menu
+- Latitudes beverage menu: https://www.latitudeshollywoodbeach.com/beverage
+- Latitudes kids menu: https://www.latitudeshollywoodbeach.com/s/Kids-Menu-2024.pdf
+- Latitudes happy hour: https://www.latitudeshollywoodbeach.com/happyhour
+- Latitudes home page: https://www.latitudeshollywoodbeach.com/
+- Latitudes contact and directions: https://www.latitudeshollywoodbeach.com/contact-us
