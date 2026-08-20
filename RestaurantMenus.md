@@ -7,3 +7,4 @@
 - [Perry’s Steakhouse & Grille](perry.md)
 - [La Tremenda Spanish Cuisine](latremendaspanishcuisine.md)
 - [Marfil Bistro](marfilbistro.md)
+- [Latitudes at Hollywood Beach Marriott](latitudes-hollywood-beach.md)
