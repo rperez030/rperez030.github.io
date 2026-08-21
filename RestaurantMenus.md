@@ -8,3 +8,4 @@
 - [La Tremenda Spanish Cuisine](latremendaspanishcuisine.md)
 - [Marfil Bistro](marfilbistro.md)
 - [Latitudes at Hollywood Beach Marriott](latitudes-hollywood-beach.md)
+- [Florio's of Little Italy](florios-little-italy.md)
