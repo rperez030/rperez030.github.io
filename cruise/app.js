@@ -42,7 +42,7 @@
 
   function listText() {
     var p = picked();
-    var lines = ["Selected shore excursions", "Norwegian Getaway, 14-18 September 2026", ""];
+    var lines = ["Selected shore excursions", "Norwegian Getaway", ""];
     if (!p.length) {
       lines.push("Nothing selected yet.");
       return lines.join("\n");
@@ -61,7 +61,7 @@
     var sum = p.reduce(function (t, b) { return t + parseFloat(b.dataset.price); }, 0);
     lines.push("Total of listed prices: " + money(sum) + " per adult");
     lines.push("");
-    lines.push("Prices as published by Norwegian on 23 August 2026. Nothing here is booked.");
+    lines.push("Prices were last checked on 23 August 2026. Nothing here is booked.");
     return lines.join("\n");
   }
 
