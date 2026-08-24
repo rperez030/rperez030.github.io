@@ -3,6 +3,8 @@
   var boxes = Array.prototype.slice.call(document.querySelectorAll('input[type="checkbox"]'));
   var countEl = document.getElementById("count");
   var totalEl = document.getElementById("total");
+  var dlEl = document.getElementById("dl");
+  var clearEl = document.getElementById("clear");
 
   function money(n) {
     return "$" + n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -31,6 +33,8 @@
   function render() {
     var p = picked();
     var sum = p.reduce(function (t, b) { return t + parseFloat(b.dataset.price); }, 0);
+    dlEl.disabled = !p.length;
+    clearEl.disabled = !p.length;
     if (!p.length) {
       countEl.textContent = "Nothing selected yet";
       totalEl.textContent = "59 excursions across two ports";
@@ -69,13 +73,13 @@
     b.addEventListener("change", function () { save(); render(); });
   });
 
-  document.getElementById("clear").addEventListener("click", function () {
+  clearEl.addEventListener("click", function () {
     boxes.forEach(function (b) { b.checked = false; });
     save();
     render();
   });
 
-  document.getElementById("dl").addEventListener("click", function () {
+  dlEl.addEventListener("click", function () {
     var blob = new Blob([listText()], { type: "text/plain;charset=utf-8" });
     var url = URL.createObjectURL(blob);
     var a = document.createElement("a");
