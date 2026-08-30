@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cagney’s Steakhouse menu with text dietary labels, prices, supplements, and food safety notices, transcribed from Norwegian Cruise Line’s menu.">
+  <title>Cagney’s Steakhouse menu — screen reader friendly</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #202b33; background: #fffdf8; }
+    * { box-sizing: border-box; }
+    body { max-width: 52rem; margin: 0 auto; padding: 1.25rem; font-size: 1.125rem; line-height: 1.65; overflow-wrap: break-word; }
+    h1, h2, h3, h4 { line-height: 1.25; }
+    h1 { font-size: 2.25rem; margin-top: 1rem; }
+    h2 { font-size: 1.7rem; margin-top: 2.75rem; border-bottom: 2px solid #b8c5cb; padding-bottom: .5rem; }
+    h3 { font-size: 1.3rem; margin-top: 2rem; }
+    h4 { font-size: 1.125rem; margin-top: 1.5rem; }
+    h3 + p, h4 + p { margin-top: .5rem; }
+    p { margin: .75rem 0; }
+    a { color: #124e70; text-decoration-thickness: .1em; text-underline-offset: .18em; }
+    a:visited { color: #614080; }
+    a:hover { text-decoration-thickness: .16em; }
+    :focus-visible { outline: 3px solid #124e70; outline-offset: 5px; }
+    blockquote { margin: 1.5rem 0; padding: 1rem 1.25rem; border-left: .3rem solid #124e70; background: #eaf1f5; }
+    blockquote p:first-child { margin-top: 0; }
+    blockquote p:last-child { margin-bottom: 0; }
+    nav ul { padding-left: 1.4rem; margin-bottom: 0; }
+    nav li { margin: .4rem 0; }
+    .dietary { font-weight: 600; }
+    .advisory-link { font-size: 1rem; }
+    dt { font-weight: 650; margin-top: 1rem; }
+    dd { margin: .25rem 0 1rem; }
+    footer { margin-top: 3rem; border-top: 1px solid #b8c5cb; padding-top: 1rem; }
+    .skip-link { position: absolute; top: .5rem; left: .5rem; transform: translateY(-200%); padding: .7rem 1rem; background: #fffdf8; z-index: 1; }
+    .skip-link:focus { transform: none; }
+    :target { scroll-margin-top: 1rem; }
+    @media print {
+      body { max-width: none; padding: 0; color: #000; background: #fff; font-size: 11pt; }
+      .skip-link, nav { display: none; }
+      h2, h3, h4 { break-after: avoid; }
+      blockquote { background: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to menu</a>
+  <header>
+    <h1>Cagney’s Steakhouse</h1>
+    <blockquote>
+      <p><strong>Note from Chloe:</strong> This screen reader friendly version follows <a href="https://www.ncl.com/sites/default/files/fleet_cagneys_menu_050126.pdf">Norwegian Cruise Line’s Cagney’s menu (PDF)</a>, checked <time datetime="2026-08-30">August 30, 2026</time>. Menu items and prices may change.</p>
+      <p>Dietary symbols are written out as “Vegetarian,” “Gluten free,” and “Contains alcohol.” Only labels printed in the source are included; an omitted label does not establish whether a dish meets dietary needs. The source marks the grilled selections as a group. Asterisks have been replaced with links to the raw or undercooked food advisory. Preparation descriptions and notices retain their meaning in plain language.</p>
+      <nav aria-label="Menu sections">
+        <ul>
+          <li><a href="#appetizers">Appetizers</a></li>
+          <li><a href="#grilled-selections">Grilled selections</a></li>
+          <li><a href="#sauces">Sauces</a></li>
+          <li><a href="#temperatures">Steak temperatures</a></li>
+          <li><a href="#featured-selections">Featured selections</a></li>
+          <li><a href="#seafood">Seafood and lobster tail supplement</a></li>
+          <li><a href="#sides">Sides</a></li>
+          <li><a href="#desserts">Desserts</a></li>
+          <li><a href="#cover-charge">Cover charge, service charge, and food safety notices</a></li>
+        </ul>
+      </nav>
+    </blockquote>
+  </header>
+
+  <main id="menu" tabindex="-1">
+    <section aria-labelledby="appetizers">
+      <h2 id="appetizers">Appetizers</h2>
+
+      <h3>Crab Cake</h3>
+      <p>Radish salad; lemon mustard cream.</p>
+
+      <h3>Jumbo Shrimp Trio</h3>
+      <p>Classic cocktail sauce.</p>
+      <p class="dietary">Gluten free.</p>
+
+      <h3>Grilled Thick-Cut Bacon</h3>
+      <p>Housemade steak sauce.</p>
+      <p class="dietary">Gluten free.</p>
+
+      <h3>Lobster Bisque</h3>
+      <p>Crème fraîche.</p>
+
+      <h3>Baked Onion Soup</h3>
+      <p>Gruyère cheese crouton.</p>
+
+      <h3>The Iceberg Wedge</h3>
+      <p>Roma tomatoes; spring onions; blue cheese; bacon bits; choice of dressing.</p>
+
+      <h3>Caesar</h3>
+      <p>Romaine lettuce; Parmesan cheese; anchovies; croutons.</p>
+    </section>
+
+    <section aria-labelledby="entrees">
+      <h2 id="entrees">Entrées</h2>
+
+      <h3 id="grilled-selections">Grilled selections</h3>
+      <p>Premium Black Angus beef.</p>
+      <p class="dietary">Gluten free.</p>
+
+      <h4>Rib Eye</h4>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>Petite Filet Mignon</h4>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>Filet Mignon</h4>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>New York Strip</h4>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h3 id="sauces">Sauces</h3>
+      <ul>
+        <li>Béarnaise — Gluten free; contains alcohol.</li>
+        <li>Green Peppercorn — Contains alcohol.</li>
+        <li>Chimichurri — Gluten free.</li>
+        <li>Port Wine Jus — Contains alcohol.</li>
+        <li>House Made Steak Sauce — Gluten free.</li>
+        <li>Maître d’ Butter — Gluten free.</li>
+      </ul>
+
+      <h3 id="temperatures">Temperatures</h3>
+      <dl>
+        <dt>Rare</dt>
+        <dd>Seared exterior; cool, red center.</dd>
+        <dt>Medium Rare</dt>
+        <dd>Warm, red center; slightly firm.</dd>
+        <dt>Medium</dt>
+        <dd>Hot, pink center; firmer than medium rare.</dd>
+        <dt>Medium Well</dt>
+        <dd>Cooked through with a little pink remaining in the center.</dd>
+        <dt>Well Done</dt>
+        <dd>Completely cooked through, with no pink remaining.</dd>
+      </dl>
+
+      <h3 id="featured-selections">Featured selections</h3>
+
+      <h4>Slow Roasted Prime Rib</h4>
+      <p>Au jus. Premium Black Angus beef.</p>
+      <p class="dietary">Gluten free.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>Surf &amp; Turf</h4>
+      <p>Filet mignon; lobster tail. Premium Black Angus beef.</p>
+      <p><strong>$25 supplement.</strong></p>
+      <p class="dietary">Gluten free.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>Double-Cut Australian Lamb Chops</h4>
+      <p>Pearl barley risotto; red wine sauce.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h3 id="seafood">Seafood</h3>
+
+      <h4>Grilled Fisherman’s Platter</h4>
+      <p>Shrimp; scallops; calamari; snapper; crab cake. Mustard remoulade; sweet chili dip.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>Grilled Jumbo Shrimp Skewer</h4>
+      <p>Grilled asparagus; sautéed mushrooms; garlic-herb drawn butter.</p>
+      <p class="dietary">Gluten free.</p>
+
+      <h4>Add a lobster tail to any entrée</h4>
+      <p><strong>$25 supplement.</strong></p>
+      <p class="dietary">Gluten free.</p>
+    </section>
+
+    <section aria-labelledby="sides">
+      <h2 id="sides">Sides</h2>
+
+      <h3>Baked Russet Potato</h3>
+      <p class="dietary">Gluten free; vegetarian.</p>
+
+      <h3>Truffle Mashed Potatoes</h3>
+      <p class="dietary">Gluten free; vegetarian.</p>
+
+      <h3>Parmesan Dusted Truffle Fries</h3>
+      <p class="dietary">Gluten free; vegetarian.</p>
+
+      <h3>Pearl Barley Risotto</h3>
+      <p class="dietary">Vegetarian.</p>
+
+      <h3>Sautéed Garlic Mushrooms</h3>
+      <p class="dietary">Gluten free; vegetarian.</p>
+
+      <h3>Creamed Spinach</h3>
+      <p class="dietary">Vegetarian.</p>
+
+      <h3>Steamed Broccoli</h3>
+      <p class="dietary">Gluten free; vegetarian.</p>
+    </section>
+
+    <section aria-labelledby="desserts">
+      <h2 id="desserts">Desserts</h2>
+
+      <h3>Raspberry Crème Brûlée</h3>
+      <p>Florentine crunch; chocolate twist.</p>
+      <p class="dietary">Gluten free.</p>
+
+      <h3>Seven Layer Chocolate Cake</h3>
+      <p>Whipped cream or vanilla ice cream.</p>
+      <p class="dietary">Contains alcohol.</p>
+
+      <h3>Apple Pie</h3>
+      <p>Whipped cream or vanilla ice cream.</p>
+
+      <h3>“OMG” Caramel-Butterscotch Cheesecake</h3>
+      <p>Vanilla custard.</p>
+    </section>
+
+    <section aria-labelledby="cover-charge">
+      <h2 id="cover-charge">Cover charge: $60</h2>
+      <p>The menu lists an additional 20% gratuity and beverage service charge. Additional tax may apply in some ports or on some itineraries.</p>
+      <p>Tell your server about any food allergies before you order.</p>
+      <p id="raw-undercooked-advisory"><strong>Raw or undercooked food advisory:</strong> Items linked to this notice are served raw or undercooked, or include ingredients that are or may be raw or undercooked. Eating raw or undercooked meat, seafood, shellfish, eggs, milk, or poultry can increase the risk of foodborne illness, particularly for people with certain medical conditions.</p>
+    </section>
+  </main>
+
+  <footer>
+    <blockquote>
+      <p><strong>Note from Chloe:</strong> This is an independent accessibility adaptation. Confirm current offerings with restaurant staff. <a href="cruise/planning.html">Browse cruise menus and excursions</a>, or <a href="RestaurantMenus.html">browse all restaurant menus</a>.</p>
+    </blockquote>
+  </footer>
+</body>
+</html>

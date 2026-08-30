@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Le Bistro menu with French dish names, English descriptions, text dietary labels, prices, and food safety notices, transcribed from Norwegian Cruise Line’s menu.">
+  <title>Le Bistro menu — screen reader friendly</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #202b33; background: #fffdf8; }
+    * { box-sizing: border-box; }
+    body { max-width: 52rem; margin: 0 auto; padding: 1.25rem; font-size: 1.125rem; line-height: 1.65; overflow-wrap: break-word; }
+    h1, h2, h3, h4 { line-height: 1.25; }
+    h1 { font-size: 2.25rem; margin-top: 1rem; }
+    h2 { font-size: 1.7rem; margin-top: 2.75rem; border-bottom: 2px solid #b8c5cb; padding-bottom: .5rem; }
+    h3 { font-size: 1.3rem; margin-top: 2rem; }
+    h4 { font-size: 1.125rem; margin-top: 1.5rem; }
+    h3 + p, h4 + p { margin-top: .5rem; }
+    p { margin: .75rem 0; }
+    a { color: #124e70; text-decoration-thickness: .1em; text-underline-offset: .18em; }
+    a:visited { color: #614080; }
+    a:hover { text-decoration-thickness: .16em; }
+    :focus-visible { outline: 3px solid #124e70; outline-offset: 5px; }
+    blockquote { margin: 1.5rem 0; padding: 1rem 1.25rem; border-left: .3rem solid #124e70; background: #eaf1f5; }
+    blockquote p:first-child { margin-top: 0; }
+    blockquote p:last-child { margin-bottom: 0; }
+    nav ul { padding-left: 1.4rem; margin-bottom: 0; }
+    nav li { margin: .4rem 0; }
+    .dietary { font-weight: 600; }
+    .advisory-link { font-size: 1rem; }
+    dt { font-weight: 650; margin-top: 1rem; }
+    dd { margin: .25rem 0 1rem; }
+    footer { margin-top: 3rem; border-top: 1px solid #b8c5cb; padding-top: 1rem; }
+    .skip-link { position: absolute; top: .5rem; left: .5rem; transform: translateY(-200%); padding: .7rem 1rem; background: #fffdf8; z-index: 1; }
+    .skip-link:focus { transform: none; }
+    :target { scroll-margin-top: 1rem; }
+    @media print {
+      body { max-width: none; padding: 0; color: #000; background: #fff; font-size: 11pt; }
+      .skip-link, nav { display: none; }
+      h2, h3, h4 { break-after: avoid; }
+      blockquote { background: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to menu</a>
+  <header>
+    <h1 lang="fr">Le Bistro</h1>
+    <blockquote>
+      <p><strong>Note from Chloe:</strong> This screen reader friendly version follows <a href="https://www.ncl.com/sites/default/files/fleet_le_bistro_dinner_menu_040126.pdf">Norwegian Cruise Line’s Le Bistro menu (PDF)</a>, checked <time datetime="2026-08-30">August 30, 2026</time>. Menu items and prices may change.</p>
+      <p>French dish names are marked for French pronunciation, followed by the menu’s English descriptions. Dietary symbols are written out as “Vegetarian,” “Gluten free,” “Contains nuts,” and “Contains alcohol.” Only labels printed in the source are included; an omitted label does not establish whether a dish meets dietary needs. Asterisks have been replaced with links to the raw or undercooked food advisory. Notices retain their meaning in plain language.</p>
+      <nav aria-label="Menu sections">
+        <ul>
+          <li><a href="#appetizers">Appetizers, soups, and salads</a></li>
+          <li><a href="#main-courses">Main courses</a></li>
+          <li><a href="#desserts">Desserts</a></li>
+          <li><a href="#cover-charge">Cover charge, service charge, and food safety notices</a></li>
+        </ul>
+      </nav>
+    </blockquote>
+  </header>
+
+  <main id="menu" tabindex="-1">
+    <section aria-labelledby="appetizers">
+      <h2 id="appetizers">Appetizers, soups, and salads</h2>
+      <p lang="fr">Entrées, soupes et salades</p>
+
+      <h3 lang="fr">Steak tartare au couteau</h3>
+      <p>Hand-cut beef; traditional garnish; grilled baguette.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h3 lang="fr">Escargots à la bourguignonne</h3>
+      <p>Herbed garlic butter.</p>
+
+      <h3 lang="fr">Soupe à l’oignon gratinée</h3>
+      <p>Baked onion soup; beef consommé; Gruyère cheese; croutons.</p>
+
+      <h3 lang="fr">Soupe aux quatre champignons</h3>
+      <p>Cream of mushroom soup.</p>
+
+      <h3 lang="fr">Cromesquis de chèvre</h3>
+      <p>Goat cheese croquettes; beets; Granny Smith apple; arugula; rosemary-infused honey.</p>
+      <p class="dietary">Vegetarian.</p>
+
+      <h3 lang="fr">Salade d’endive</h3>
+      <p>Belgian endive salad; Roquefort cheese; toasted walnuts.</p>
+      <p class="dietary">Vegetarian; contains nuts.</p>
+    </section>
+
+    <section aria-labelledby="main-courses">
+      <h2 id="main-courses">Main courses</h2>
+      <p lang="fr">Les plats principaux</p>
+
+      <h3 lang="fr">Filet de bœuf</h3>
+      <p>Beef tenderloin; fondant potato; mushrooms; Périgord sauce.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h3 lang="fr">Côte de porc rôti</h3>
+      <p>Roasted pork chop; green peppercorn sauce; twice-fried potato; seasonal vegetables.</p>
+      <p class="dietary">Gluten free.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h3 lang="fr">Carré d’agneau rôti et souris d’agneau aux saveurs marocaines</h3>
+      <p>Braised shank and roasted lamb chop; Moroccan spices; dried fruits; sweet potatoes; cilantro.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h3 lang="fr">Coq au vin</h3>
+      <p>Red wine-braised chicken; mushrooms; potatoes; pearl onions; bacon.</p>
+
+      <h3 lang="fr">Sole grenobloise</h3>
+      <p>Sautéed sole; lemon-caper butter; croutons; château potatoes.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h3 lang="fr">Filet de saumon</h3>
+      <p>Salmon fillet; black olive tapenade; crushed lemon potatoes; artichoke; tomato confit; zucchini; pesto.</p>
+      <p class="dietary">Gluten free; contains nuts.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h3 lang="fr">Homard Thermidor</h3>
+      <p>Lobster Thermidor; mushroom cream sauce; pilaf rice.</p>
+      <p><strong>$25 supplement.</strong></p>
+      <p class="dietary">Gluten free.</p>
+
+      <h3 lang="fr">Napoléon de légumes</h3>
+      <p>Napoléon of Portobello mushrooms and vegetable puff pastry; goat cheese; red pepper; sweet potato; beurre blanc sauce.</p>
+      <p class="dietary">Vegetarian.</p>
+    </section>
+
+    <section aria-labelledby="desserts">
+      <h2 id="desserts">Desserts</h2>
+      <p lang="fr">Pâtisseries</p>
+
+      <h3 lang="fr">Fraisier</h3>
+      <p>Strawberries with diplomat cream and pistachio-almond sponge cake.</p>
+      <p class="dietary">Contains alcohol; contains nuts.</p>
+
+      <h3 lang="fr">Marquise au chocolat</h3>
+      <p>70% dark chocolate cremeux; rice crunch; Chambord raspberry sauce.</p>
+      <p class="dietary">Contains alcohol.</p>
+
+      <h3 lang="fr">Poire Belle-Hélène</h3>
+      <p>Fortified wine-poached pear with spices; vanilla ice cream; warm chocolate sauce.</p>
+      <p class="dietary">Contains alcohol.</p>
+
+      <h3 lang="fr">Île flottante</h3>
+      <p>Airy meringue floating in vanilla crème anglaise; raspberry coulis.</p>
+      <p class="dietary">Gluten free.</p>
+
+      <h3 lang="fr">Assiette de fromage</h3>
+      <p>Cheese selection: Camembert; goat cheese; Roquefort; Muenster.</p>
+      <p class="dietary">Gluten free; contains nuts.</p>
+
+      <h3 lang="fr">Crèmes glacées et sorbets</h3>
+      <p>Assorted ice cream flavors: vanilla, chocolate, and strawberry. Lemon sorbet.</p>
+      <p class="dietary">Gluten free.</p>
+    </section>
+
+    <section aria-labelledby="cover-charge">
+      <h2 id="cover-charge">Cover charge: $60</h2>
+      <p>The menu lists an additional 20% gratuity, beverage and specialty service charge. Additional tax may apply in some ports or on some itineraries.</p>
+      <p>Tell your server about any food allergies before you order.</p>
+      <p id="raw-undercooked-advisory"><strong>Raw or undercooked food advisory:</strong> Items linked to this notice are served raw or undercooked, or include ingredients that are or may be raw or undercooked. Eating raw or undercooked meat, seafood, shellfish, eggs, milk, or poultry can increase the risk of foodborne illness, particularly for people with certain medical conditions.</p>
+    </section>
+  </main>
+
+  <footer>
+    <blockquote>
+      <p><strong>Note from Chloe:</strong> This is an independent accessibility adaptation. Confirm current offerings with restaurant staff. <a href="cruise/planning.html">Browse cruise menus and excursions</a>, or <a href="RestaurantMenus.html">browse all restaurant menus</a>.</p>
+    </blockquote>
+  </footer>
+</body>
+</html>

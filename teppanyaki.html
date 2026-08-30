@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Teppanyaki menu with text dietary labels, entrée choices, included sides, prices, and food safety notices, transcribed from Norwegian Cruise Line’s menu.">
+  <title>Teppanyaki menu — screen reader friendly</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #202b33; background: #fffdf8; }
+    * { box-sizing: border-box; }
+    body { max-width: 52rem; margin: 0 auto; padding: 1.25rem; font-size: 1.125rem; line-height: 1.65; overflow-wrap: break-word; }
+    h1, h2, h3, h4 { line-height: 1.25; }
+    h1 { font-size: 2.25rem; margin-top: 1rem; }
+    h2 { font-size: 1.7rem; margin-top: 2.75rem; border-bottom: 2px solid #b8c5cb; padding-bottom: .5rem; }
+    h3 { font-size: 1.3rem; margin-top: 2rem; }
+    h4 { font-size: 1.125rem; margin-top: 1.5rem; }
+    h3 + p, h4 + p { margin-top: .5rem; }
+    p { margin: .75rem 0; }
+    a { color: #124e70; text-decoration-thickness: .1em; text-underline-offset: .18em; }
+    a:visited { color: #614080; }
+    a:hover { text-decoration-thickness: .16em; }
+    :focus-visible { outline: 3px solid #124e70; outline-offset: 5px; }
+    blockquote { margin: 1.5rem 0; padding: 1rem 1.25rem; border-left: .3rem solid #124e70; background: #eaf1f5; }
+    blockquote p:first-child { margin-top: 0; }
+    blockquote p:last-child { margin-bottom: 0; }
+    nav ul { padding-left: 1.4rem; margin-bottom: 0; }
+    nav li { margin: .4rem 0; }
+    .dietary { font-weight: 600; }
+    .advisory-link { font-size: 1rem; }
+    dt { font-weight: 650; margin-top: 1rem; }
+    dd { margin: .25rem 0 1rem; }
+    footer { margin-top: 3rem; border-top: 1px solid #b8c5cb; padding-top: 1rem; }
+    .skip-link { position: absolute; top: .5rem; left: .5rem; transform: translateY(-200%); padding: .7rem 1rem; background: #fffdf8; z-index: 1; }
+    .skip-link:focus { transform: none; }
+    :target { scroll-margin-top: 1rem; }
+    @media print {
+      body { max-width: none; padding: 0; color: #000; background: #fff; font-size: 11pt; }
+      .skip-link, nav { display: none; }
+      h2, h3, h4 { break-after: avoid; }
+      blockquote { background: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to menu</a>
+  <header>
+    <h1>Teppanyaki</h1>
+    <blockquote>
+      <p><strong>Note from Chloe:</strong> This screen reader friendly version follows <a href="https://www.ncl.com/sites/default/files/Fleet_Teppanyaki_Dinner_Mobile_Menu_051925.pdf">Norwegian Cruise Line’s Teppanyaki menu (PDF)</a>, checked <time datetime="2026-08-30">August 30, 2026</time>. Menu items and prices may change.</p>
+      <p>Dietary symbols are written out as “Vegetarian,” “Gluten free,” and “Contains nuts.” Only labels printed in the source are included; an omitted label does not establish whether a dish meets dietary needs. Asterisks have been replaced with links to the raw or undercooked food advisory. Notices retain their meaning in plain language.</p>
+      <nav aria-label="Menu sections">
+        <ul>
+          <li><a href="#soup-and-salad">Soup and salad</a></li>
+          <li><a href="#entrees">Entrées and included sides</a></li>
+          <li><a href="#classics">Teppanyaki classics</a></li>
+          <li><a href="#combinations">Teppanyaki combinations</a></li>
+          <li><a href="#dessert">Dessert</a></li>
+          <li><a href="#cover-charge">Cover charge, service charge, and food safety notices</a></li>
+        </ul>
+      </nav>
+    </blockquote>
+  </header>
+
+  <main id="menu" tabindex="-1">
+    <section aria-labelledby="soup-and-salad">
+      <h2 id="soup-and-salad">Soup and salad</h2>
+
+      <h3>Miso Soup</h3>
+      <p>Mushrooms; dashi; tofu; wakame.</p>
+
+      <h3>Seaweed Salad</h3>
+      <p>Ginger dressing.</p>
+      <p class="dietary">Vegetarian.</p>
+    </section>
+
+    <section aria-labelledby="entrees">
+      <h2 id="entrees">Entrées</h2>
+      <p>Choose one Teppanyaki classic or combination. Each is served with:</p>
+      <ul>
+        <li>Garlic fried rice.</li>
+        <li>Teppanyaki grilled vegetables.</li>
+        <li>Onion dipping sauce.</li>
+        <li>Creamy mustard dipping sauce.</li>
+      </ul>
+
+      <h3 id="classics">Teppanyaki classics</h3>
+
+      <h4>Chicken Yaki Udon</h4>
+      <p>Chicken breast; udon noodles.</p>
+
+      <h4>Vegetable Yaki Udon</h4>
+      <p>Seasonal vegetables; udon noodles.</p>
+      <p class="dietary">Vegetarian.</p>
+
+      <h4>Seafood</h4>
+      <p>Jumbo shrimp; sea scallops; calamari.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>New York Strip</h4>
+      <p>Beef striploin.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>Vegetable Teriyaki</h4>
+      <p>Seasonal vegetables; teriyaki tofu.</p>
+      <p class="dietary">Vegetarian.</p>
+
+      <h3 id="combinations">Teppanyaki combinations</h3>
+
+      <h4>Yamato</h4>
+      <p>Chicken breast; jumbo shrimp.</p>
+
+      <h4>Asuka</h4>
+      <p>New York strip; jumbo shrimp.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>Kamakura</h4>
+      <p>New York strip; chicken breast.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+
+      <h4>Edo</h4>
+      <p>Sea scallops; jumbo shrimp.</p>
+      <p class="advisory-link"><a href="#raw-undercooked-advisory">Raw or undercooked food advisory applies.</a></p>
+    </section>
+
+    <section aria-labelledby="dessert">
+      <h2 id="dessert">Dessert</h2>
+      <p>Choose one:</p>
+
+      <h3>Green Tea Cake</h3>
+      <p>Cashew nut brittle.</p>
+      <p class="dietary">Contains nuts.</p>
+
+      <h3>Fresh Fruit Sashimi</h3>
+      <p>Sliced exotic fruits.</p>
+      <p class="dietary">Gluten free.</p>
+    </section>
+
+    <section aria-labelledby="cover-charge">
+      <h2 id="cover-charge">Cover charge: $60</h2>
+      <p>The menu lists an additional 20% gratuity and beverage service charge. Additional tax may apply in some ports or on some itineraries.</p>
+      <p>Tell your server about any food allergies before you order.</p>
+      <p id="raw-undercooked-advisory"><strong>Raw or undercooked food advisory:</strong> Items linked to this notice are served raw or undercooked, or include ingredients that are or may be raw or undercooked. Eating raw or undercooked meat, seafood, shellfish, eggs, milk, or poultry can increase the risk of foodborne illness, particularly for people with certain medical conditions.</p>
+    </section>
+  </main>
+
+  <footer>
+    <blockquote>
+      <p><strong>Note from Chloe:</strong> This is an independent accessibility adaptation. Confirm current offerings with restaurant staff. <a href="cruise/planning.html">Browse cruise menus and excursions</a>, or <a href="RestaurantMenus.html">browse all restaurant menus</a>.</p>
+    </blockquote>
+  </footer>
+</body>
+</html>
