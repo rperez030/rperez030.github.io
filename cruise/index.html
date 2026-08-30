@@ -30,7 +30,7 @@
     .advisory-link { font-size: 1rem; }
     dt { font-weight: 650; margin-top: 1rem; }
     dd { margin: .25rem 0 1rem; }
-    footer { margin-top: 3rem; border-top: 1px solid #b8c5cb; padding-top: 1rem; }
+    .all-menus { margin-top: 3rem; border-top: 1px solid #b8c5cb; padding-top: 1rem; }
     .skip-link { position: absolute; top: .5rem; left: .5rem; transform: translateY(-200%); padding: .7rem 1rem; background: #fffdf8; z-index: 1; }
     .skip-link:focus { transform: none; }
     :target { scroll-margin-top: 1rem; }
@@ -50,7 +50,7 @@
   </header>
 
   <main id="planning-links" tabindex="-1">
-    <section aria-labelledby="restaurant-menus">
+    <div>
       <h2 id="restaurant-menus">Restaurant menus</h2>
       <p>Screen reader friendly menus with dish headings, descriptions, text dietary labels, prices, and food safety notices.</p>
       <ul>
@@ -59,16 +59,16 @@
         <li><a href="../le-bistro.html">Le Bistro menu</a> — French cuisine.</li>
       </ul>
       <p>The menus were checked against Norwegian’s linked PDFs on <time datetime="2026-08-30">August 30, 2026</time>. Offerings and prices may change; confirm them with restaurant staff.</p>
-    </section>
+    </div>
 
-    <section aria-labelledby="shore-excursions">
+    <div>
       <h2 id="shore-excursions">Shore excursions</h2>
       <p><a href="excursions.html">Shore excursions at Great Stirrup Cay and Nassau</a> — the existing page with excursion descriptions, prices, practical details, and a downloadable selection list.</p>
-    </section>
-  </main>
+    </div>
 
-  <footer>
-    <p><a href="../RestaurantMenus.html">Browse all restaurant menus</a>.</p>
-  </footer>
+    <div class="all-menus">
+      <p><a href="../RestaurantMenus.html">Browse all restaurant menus</a>.</p>
+    </div>
+  </main>
 </body>
 </html>
