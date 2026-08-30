@@ -20,24 +20,24 @@
     a:visited { color: #614080; }
     a:hover { text-decoration-thickness: .16em; }
     :focus-visible { outline: 3px solid #124e70; outline-offset: 5px; }
-    blockquote { margin: 1.5rem 0; padding: 1rem 1.25rem; border-left: .3rem solid #124e70; background: #eaf1f5; }
-    blockquote p:first-child { margin-top: 0; }
-    blockquote p:last-child { margin-bottom: 0; }
-    nav ul { padding-left: 1.4rem; margin-bottom: 0; }
-    nav li { margin: .4rem 0; }
+    .menu-note { margin: 1.5rem 0; padding: 1rem 1.25rem; border-left: .3rem solid #124e70; background: #eaf1f5; }
+    .menu-note p:first-child { margin-top: 0; }
+    .menu-note p:last-child { margin-bottom: 0; }
+    .menu-sections ul { padding-left: 1.4rem; margin-bottom: 0; }
+    .menu-sections li { margin: .4rem 0; }
     .dietary { font-weight: 600; }
     .advisory-link { font-size: 1rem; }
     dt { font-weight: 650; margin-top: 1rem; }
     dd { margin: .25rem 0 1rem; }
-    footer { margin-top: 3rem; border-top: 1px solid #b8c5cb; padding-top: 1rem; }
+    .related-links { margin-top: 3rem; border-top: 1px solid #b8c5cb; padding-top: 1rem; }
     .skip-link { position: absolute; top: .5rem; left: .5rem; transform: translateY(-200%); padding: .7rem 1rem; background: #fffdf8; z-index: 1; }
     .skip-link:focus { transform: none; }
     :target { scroll-margin-top: 1rem; }
     @media print {
       body { max-width: none; padding: 0; color: #000; background: #fff; font-size: 11pt; }
-      .skip-link, nav { display: none; }
+      .skip-link, .menu-sections { display: none; }
       h2, h3, h4 { break-after: avoid; }
-      blockquote { background: none; }
+      .menu-note { background: none; }
     }
   </style>
 </head>
@@ -45,10 +45,10 @@
   <a class="skip-link" href="#menu">Skip to menu</a>
   <header>
     <h1>Cagney’s Steakhouse</h1>
-    <blockquote>
-      <p><strong>Note from Chloe:</strong> This screen reader friendly version follows <a href="https://www.ncl.com/sites/default/files/fleet_cagneys_menu_050126.pdf">Norwegian Cruise Line’s Cagney’s menu (PDF)</a>, checked <time datetime="2026-08-30">August 30, 2026</time>. Menu items and prices may change.</p>
+    <div class="menu-note">
+      <p>This screen reader friendly version follows <a href="https://www.ncl.com/sites/default/files/fleet_cagneys_menu_050126.pdf">Norwegian Cruise Line’s Cagney’s menu (PDF)</a>, checked <time datetime="2026-08-30">August 30, 2026</time>. Menu items and prices may change.</p>
       <p>Dietary symbols are written out as “Vegetarian,” “Gluten free,” and “Contains alcohol.” Only labels printed in the source are included; an omitted label does not establish whether a dish meets dietary needs. The source marks the grilled selections as a group. Asterisks have been replaced with links to the raw or undercooked food advisory. Preparation descriptions and notices retain their meaning in plain language.</p>
-      <nav aria-label="Menu sections">
+      <div class="menu-sections">
         <ul>
           <li><a href="#appetizers">Appetizers</a></li>
           <li><a href="#grilled-selections">Grilled selections</a></li>
@@ -60,12 +60,12 @@
           <li><a href="#desserts">Desserts</a></li>
           <li><a href="#cover-charge">Cover charge, service charge, and food safety notices</a></li>
         </ul>
-      </nav>
-    </blockquote>
+      </div>
+    </div>
   </header>
 
   <main id="menu" tabindex="-1">
-    <section aria-labelledby="appetizers">
+    <div>
       <h2 id="appetizers">Appetizers</h2>
 
       <h3>Crab Cake</h3>
@@ -90,9 +90,9 @@
 
       <h3>Caesar</h3>
       <p>Romaine lettuce; Parmesan cheese; anchovies; croutons.</p>
-    </section>
+    </div>
 
-    <section aria-labelledby="entrees">
+    <div>
       <h2 id="entrees">Entrées</h2>
 
       <h3 id="grilled-selections">Grilled selections</h3>
@@ -165,9 +165,9 @@
       <h4>Add a lobster tail to any entrée</h4>
       <p><strong>$25 supplement.</strong></p>
       <p class="dietary">Gluten free.</p>
-    </section>
+    </div>
 
-    <section aria-labelledby="sides">
+    <div>
       <h2 id="sides">Sides</h2>
 
       <h3>Baked Russet Potato</h3>
@@ -190,9 +190,9 @@
 
       <h3>Steamed Broccoli</h3>
       <p class="dietary">Gluten free; vegetarian.</p>
-    </section>
+    </div>
 
-    <section aria-labelledby="desserts">
+    <div>
       <h2 id="desserts">Desserts</h2>
 
       <h3>Raspberry Crème Brûlée</h3>
@@ -208,20 +208,20 @@
 
       <h3>“OMG” Caramel-Butterscotch Cheesecake</h3>
       <p>Vanilla custard.</p>
-    </section>
+    </div>
 
-    <section aria-labelledby="cover-charge">
+    <div>
       <h2 id="cover-charge">Cover charge: $60</h2>
       <p>The menu lists an additional 20% gratuity and beverage service charge. Additional tax may apply in some ports or on some itineraries.</p>
       <p>Tell your server about any food allergies before you order.</p>
       <p id="raw-undercooked-advisory"><strong>Raw or undercooked food advisory:</strong> Items linked to this notice are served raw or undercooked, or include ingredients that are or may be raw or undercooked. Eating raw or undercooked meat, seafood, shellfish, eggs, milk, or poultry can increase the risk of foodborne illness, particularly for people with certain medical conditions.</p>
-    </section>
-  </main>
+    </div>
 
-  <footer>
-    <blockquote>
-      <p><strong>Note from Chloe:</strong> This is an independent accessibility adaptation. Confirm current offerings with restaurant staff. <a href="cruise/">Browse cruise menus and excursions</a>, or <a href="RestaurantMenus.html">browse all restaurant menus</a>.</p>
-    </blockquote>
-  </footer>
+    <div class="related-links">
+      <div class="menu-note">
+        <p>This is an independent accessibility adaptation. Confirm current offerings with restaurant staff. <a href="cruise/">Browse cruise menus and excursions</a>, or <a href="RestaurantMenus.html">browse all restaurant menus</a>.</p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
