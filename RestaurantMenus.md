@@ -12,3 +12,4 @@
 - [Cagney’s Steakhouse — Norwegian Cruise Line](cagneys-steakhouse.html)
 - [Teppanyaki — Norwegian Cruise Line](teppanyaki.html)
 - [Le Bistro — Norwegian Cruise Line](le-bistro.html)
+- [Taste, Savor, and The Manhattan Room — shared Norwegian Getaway dinner menu samples](cruise/main-dining.html)
